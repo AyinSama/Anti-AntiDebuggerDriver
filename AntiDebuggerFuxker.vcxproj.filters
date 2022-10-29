@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Thirdparty">
+      <UniqueIdentifier>{9c6b5bde-514b-40b4-b534-7b90979edb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thirdparty\InfinityHookPro">
+      <UniqueIdentifier>{c58ce49b-5b93-48b9-a66c-59dae4cb4325}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.cpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.hpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.hpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.hpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Thirdparty\InfinityHookPro</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
